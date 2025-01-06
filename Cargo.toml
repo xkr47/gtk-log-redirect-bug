@@ -1,0 +1,10 @@
+[package]
+name = "gtk-log-redirect-bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.11.6"
+glib = { version = "0.20.7", features = ["log"] }
+gtk4 = "0.9.5"
+log = "0.4.22"
